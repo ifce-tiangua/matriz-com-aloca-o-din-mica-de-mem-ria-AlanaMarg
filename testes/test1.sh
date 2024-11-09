@@ -2,7 +2,8 @@ echo "Testando (com 2 linhas e 3 colunas)..."
 echo
 
 output=$(./a.out < ./testes/input1.txt)
-expected_output="1 2 3\n4 5 6"
+expected_output="1 2 3
+4 5 6"
 
 if [ $? -eq 0 ] ; then
   echo "Running ok: Program exited zero"
