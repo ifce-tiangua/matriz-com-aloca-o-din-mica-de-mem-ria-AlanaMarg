@@ -53,6 +53,7 @@ void matriz_show(int** matriz, int linhas, int colunas) {
         if(i < linhas - 1) printf("\n");
     }
     printf("'");
+    printf("\n");
 }
 
 void matriz_destroy(int **matriz, int linhas) {
