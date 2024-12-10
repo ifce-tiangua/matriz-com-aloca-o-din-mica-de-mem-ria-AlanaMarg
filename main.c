@@ -44,7 +44,6 @@ void matriz_read(int** matriz, int linhas, int colunas) {
 }
 
 void matriz_show(int** matriz, int linhas, int colunas) {
-    printf("'");
     for(int i = 0; i < linhas; i++){
         for(int j = 0; j < colunas; j++){
             printf("%d", matriz[i][j]);
@@ -52,8 +51,6 @@ void matriz_show(int** matriz, int linhas, int colunas) {
         }
         if(i < linhas - 1) printf("\n");
     }
-    printf("'");
-    printf("\n");
 }
 
 void matriz_destroy(int **matriz, int linhas) {
